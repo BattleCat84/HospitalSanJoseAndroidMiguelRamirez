@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.corp.migueli.sanidadsansocorro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".PrimeraMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SegundaActivity2"
+            android:parentActivityName=".PrimeraMainActivity"/>
+
+        <activity android:name=".TerceraActivity3"
+            android:parentActivityName=".SegundaActivity2"/>
+        <activity
+            android:name=".CuartaActivity4"
+            android:parentActivityName=".TerceraActivity3"
+            android:label="@string/title_activity_cuarta4"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Quinta5ActivityEspecialidades"
+            android:parentActivityName=".CuartaActivity4"
+            android:label="@string/title_activity_quinta5_especialidade"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>

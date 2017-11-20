@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.corp.migueli.sanidadsansocorro.TerceraActivity3">
+
+    <TextView
+        android:id="@+id/textViewEnunciado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El nombre introducido es: "/>
+
+    <TextView
+        android:id="@+id/textViewNombreIntroducido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aquí va el nombre introducido en la otra actividad "/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_crucecita"
+        android:layout_below="@+id/textViewNombreIntroducido"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca su sexo" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupSexo">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hombre"
+            android:id="@+id/radioHombre"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mujer"
+            android:id="@+id/radioMujer"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A que especialidad desea asistir" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cardio"
+        android:id="@+id/checkboxCardiologia"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/neuro"
+        android:id="@+id/checkboxNeurocirugia"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cirugia"
+        android:id="@+id/checkboxCirugia"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio"
+        android:id="@+id/checkboxRadiologia"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trauma"
+        android:id="@+id/checkboxTraumologia"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oftamo"
+        android:id="@+id/checkboxOftamologia"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nefro"
+        android:id="@+id/checkboxNefrologia"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_ir"
+        android:id="@+id/buttonIrALaSiguienteActividad"
+        />
+</LinearLayout>

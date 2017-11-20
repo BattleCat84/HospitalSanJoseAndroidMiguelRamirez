@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.corp.migueli.sanidadsansocorro.CuartaActivity4"
+    tools:showIn="@layout/activity_cuarta4">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imagen_cabecera_hospital"
+        android:maxHeight="@dimen/fab_margin"
+        android:maxWidth="@dimen/fab_margin"
+        android:src="@drawable/logohospitalsanjose" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital San Socorro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewQuienEsTuMedico"
+        android:layout_width="380dp"
+        android:layout_height="167dp"
+        android:contentDescription="@string/imagen_quien_es_tu_medico"
+        android:maxHeight="@dimen/fab_margin"
+        android:maxWidth="@dimen/fab_margin"
+        android:src="@drawable/quienestumedico" />
+
+    <Button
+        android:id="@+id/buttonIr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/especialidad_doctores"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="370dp"/>
+
+</LinearLayout>

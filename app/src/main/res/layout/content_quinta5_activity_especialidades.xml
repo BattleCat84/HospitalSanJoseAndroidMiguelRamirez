@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.corp.migueli.sanidadsansocorro.Quinta5ActivityEspecialidades"
+    tools:showIn="@layout/activity_quinta5_especialidades">
+
+    <android.support.v7.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/textMedicoEspecialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medico_especialidad"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switchCardiologia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Switch
+            android:id="@+id/switchNeurocirugia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Switch
+            android:id="@+id/switchCirugia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <Switch
+            android:id="@+id/switchRadiologia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_doctor"/>
+
+</LinearLayout>

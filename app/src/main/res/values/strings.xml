@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SanidadSanSocorro</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_segunda2">SegundaActivity2</string>
+    <string name="title_activity_cuarta4">CuartaActivity4</string>
+    <string name="title_activity_quinta_especialidades">QuintaActivityEspecialidades</string>
+    <string name="title_activity_quinta5_especialidade">Quinta5ActivityEspecialidade</string>
+
+    <!--Strings PrimearaActivity1 -->
+    <string name="imagen_cabecera_hospital">cabecera hospital San Jose</string>
+
+    <!--Strings SegundaActivity2 -->
+    <string name="boton_ir">Siguiente</string>
+    <string name="error_campo_obligatorio">Para seguir debe de introducir un nombre</string>
+
+    <!--Strings errores SegundaActivity -->
+
+    <!--Strings TerceraActivity3 -->
+    <string name="hosp_san_soc">Hospital San Socorro</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="cardio">Cardiologia</string>
+    <string name="neuro">Neurocirugia</string>
+    <string name="cirugia">Cirugia</string>
+    <string name="radio">Radiologia</string>
+    <string name="trauma">Traumología</string>
+    <string name="oftamo">Oftamología</string>
+    <string name="nefro">Nefrologia</string>
+    <string name="mostrar_datos">Mostrar datos</string>
+
+    <!-- Strings CuartaActivity4 -->
+    <string name="especialidad_doctores">Especialidad y doctores</string>
+    <string name="imagen_quien_es_tu_medico">Quien es tu médico</string>
+
+    <!-- Strings QuintaActivity5 -->
+    <string name="medico_especialidad">El Médico de cada especialidad</string>
+
+</resources>
